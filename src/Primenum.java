@@ -20,7 +20,9 @@ public class Primenum {
         Scanner vr = new Scanner(System.in);
         System.out.println(" Enter a number ");
         int a = vr.nextInt();
+
         vr.close();
+        
         boolean result = prime(a);
         System.out.println(" Prime number is " + result);
     }
